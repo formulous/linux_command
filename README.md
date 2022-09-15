@@ -10,4 +10,4 @@
 
 `mv [file1] [file1edit]` : file1 이름을 file1edit 으로 수정
 
-'chown [OPTION] [id]` : file에 대한 권한 
+`chown [OPTION] [id]` : file에 대한 권한 변경
