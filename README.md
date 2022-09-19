@@ -11,3 +11,9 @@
 `mv [file1] [file1edit]` : file1 이름을 file1edit 으로 수정
 
 `chown [OPTION] [id]` : file에 대한 권한 변경
+
+`vi [file]` : 문서 편집모드
+
+`:wq` : 편집모드 저장 후 종료
+
+`:q!` : 편집모드 저장하지 않고 종료
