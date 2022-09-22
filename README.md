@@ -11,6 +11,7 @@
 `mv [file1] [file1edit]` : file1 이름을 file1edit 으로 수정
 
 `chown [OPTION] [id]` : file에 대한 권한 변경
+- OPTION -R : 하위 디렉토리의 권한까지 전체 
 
 `vi [file]` : 문서 편집모드
 
