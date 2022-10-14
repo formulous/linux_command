@@ -4,7 +4,7 @@
 
 `passwd [id]` : 유저 id에 password 추가
 
-`scp [OPTION] [file] [user]@[ip]:[path]`: ip주소의 user계정에 path경로로 파일 전송 
+`scp -P [port] [file] [user]@[ip]:[path]`: ip주소의 user계정에 path경로로 파일 전송 
 
 `rm [OPTION] [file]` : file 삭제
 
@@ -23,7 +23,7 @@
 ## 압축 관련
 
 * .gz로 압축하기
-`tar -zcvf [파일명.tar.gz] [폴더명]`
+`tar -zcvf [파일명.tar.gz] [압축 할 폴더명]`
 
 * gz 압출 풀기
 `tar -zxvf [파일명.tar.gz]`
